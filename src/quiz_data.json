@@ -1,0 +1,74 @@
+{
+  "quiz_questions": [
+    {
+      "id": 1,
+      "instruction_text": "How many continents are there on Planet Earth?",
+      "answer_options": ["5", "6", "7", "8"],
+      "option_labels":["A","B","C","D"],
+      "answer": "7"
+    },
+    {
+      "id": 2,
+      "instruction_text": "Total number of oceans in the World is?",
+      "answer_options": ["3", "5", "7", "12"],
+      "option_labels":["A","B","C","D"],
+      "answer": "5"
+    },
+    {
+      "id": 3,
+      "instruction_text": "Which one is the largest ocean in the World?",
+      "answer_options": ["Indian", "Pacific", "Atlantic", "Arctic"],
+      "option_labels":["A","B","C","D"],
+      "answer": "Pacific"
+    },
+    {
+      "id": 4,
+      "instruction_text": "Which one is the smallest ocean in the World?",
+      "answer_options": ["Indian", "Pacific", "Atlantic", "Arctic"],
+      "option_labels":["A","B","C","D"],
+      "answer": "Arctic"
+    },
+    {
+      "id": 5,
+      "instruction_text": "In which ocean 'Bermuda Triangle' region is located ?",
+      "answer_options": ["Indian", "Pacific", "Atlantic", "Arctic"],
+      "option_labels":["A","B","C","D"],
+      "answer": "Atlantic"
+    },
+    {
+      "id": 6,
+      "instruction_text": "Which country is also known as 'Land of the Midnight Sun' ?",
+      "answer_options": ["Greenland", "Iceland", "Ireland", "Norway"],
+      "option_labels":["A","B","C","D"],
+      "answer": "Norway"
+    },
+    {
+      "id": 7,
+      "instruction_text": "Which country is known as the 'playground of Europe'?",
+      "answer_options": ["Austria", "Holland", "Switzerland", "Itlay"],
+      "option_labels":["A","B","C","D"],
+      "answer": "Switzerland"
+    },
+    {
+      "id": 8,
+      "instruction_text": "Which country is also known as the 'Land of Rising Sun' ?",
+      "answer_options": ["Japan", "New Zealand", "Fiji", "China"],
+      "option_labels":["A","B","C","D"],
+      "answer": "Japan"
+    },
+    {
+      "id": 9,
+      "instruction_text": "Which country is known as the 'Land of Thunderbolts' ?",
+      "answer_options": ["China", "Bhutan", "Mongolia", "Thailand"],
+      "option_labels":["A","B","C","D"],
+      "answer": "Bhutan"
+    },
+    {
+      "id": 10,
+      "instruction_text": " In which country, white elephant is found ?",
+      "answer_options": ["India", "Sri Lanka", "Thailand", "Malaysia"],
+      "option_labels":["A","B","C","D"],
+      "answer": "Thailand"
+    }
+  ]
+}
