@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 class QuizQuestionButton extends Component {
-    state = {  }
+    /* state = {  } */
+    handleClick(){
+        this.props.clickHandler(this.props.button_text);
+    }
     render() { 
         return ( <>
-            <div className="mt-3">
-            {this.props.button_text.answer_options.map((option,index)=> <div class="form-check">
-            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" value={option} key={index}/>
-            <label class="form-check-label" for="flexRadioDefault1">{option}</label></div>)}
-            </div>
+            <li className="list-group-item"><button type="button" className="btn btn-light" onClick={this.handleClick.bind(this)}>{this.props.button_text}</button></li>
         </>);
     }
 }

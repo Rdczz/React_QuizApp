@@ -38,17 +38,18 @@ class Quiz extends Component {
                 <div className="jumbotron pb-3 pt-5">
                 <div className="card">
                     <div className="card-body">
-                    <QuizQuestion quiz_question={quizData.quiz_questions[this.state.quiz_pos-1]}/>
+                    <QuizQuestion quiz_question={quizData.quiz_questions[this.state.quiz_pos-1]} qno={this.state.quiz_pos}/>
                     </div>
                 </div>
                 <div className="d-flex justify-content-between mt-3">
-                    <SubmitButton/>
-                    <div>
+                <div>
                     {(isFirstQuestion===0)?<PrevButton disable={this.state.quiz_pos}/>:<PrevButton prev={this.prevQuestion.bind(this)}/>}
                     <NextButton next=
                     {this.nextQuestion.bind(this)}/>
                     
                     </div>
+                    <SubmitButton/>
+                    
                     
                 </div>
                 </div>
